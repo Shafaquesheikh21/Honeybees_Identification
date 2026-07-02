@@ -104,15 +104,16 @@ The trained deep learning model is deployed using Flask and integrated into a re
 Users can simply upload an image of a honeybee and receive the predicted species in real time.
 ## Website Preview
 <img width="550" height="238" alt="image" src="https://github.com/user-attachments/assets/f1332eae-888f-47ca-a137-ce040d38248c" />
+
 ## 📦 Required Libraries
-TensorFlow
-Keras
-OpenCV
-NumPy
-Flask
-Matplotlib
-Scikit-learn
-Pandas
+-TensorFlow
+-Keras
+-OpenCV
+-NumPy
+-Flask
+-Matplotlib
+-Scikit-learn
+-Pandas
 ## 📈 Results
 The proposed model successfully classifies honeybee images into five different species using transfer learning.
 ### Model Highlights
