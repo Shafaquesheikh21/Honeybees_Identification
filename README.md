@@ -3,7 +3,6 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow)
 ![Flask](https://img.shields.io/badge/Flask-Web%20Application-black?logo=flask)
 ![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green?logo=opencv)
-![License](https://img.shields.io/badge/License-MIT-yellow)
 ## 📌 Overview
 Honeybee species play a vital role in agriculture, biodiversity, and ecosystem sustainability. Manual identification of honeybee species requires expert knowledge and can be time-consuming. This project leverages Computer Vision and Deep Learning to automatically classify honeybee images into one of five different species using a pre-trained VGG16 Convolutional Neural Network (CNN).
 The trained model is integrated into a Flask web application, allowing users to upload an image and instantly identify the honeybee species through a simple and interactive interface.
