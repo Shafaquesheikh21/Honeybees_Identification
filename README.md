@@ -78,7 +78,7 @@ Fully Connected Layer
 Softmax Classifier
 <img width="492" height="246" alt="image" src="https://github.com/user-attachments/assets/8cc7e788-7c4e-423b-bab4-784e51a5af0b" />
 ## ⚙️ Workflow
-```text
+
 Input Honeybee Image
         │
         ▼
@@ -99,11 +99,11 @@ Softmax Classification
         │
         ▼
 Predicted Honeybee Species
-```
+
 ## 💻 Web Application
 The trained deep learning model is deployed using Flask and integrated into a responsive website developed using HTML, CSS, and JavaScript.
 Users can simply upload an image of a honeybee and receive the predicted species in real time.
-**Website Preview**
+## Website Preview
 <img width="550" height="238" alt="image" src="https://github.com/user-attachments/assets/f1332eae-888f-47ca-a137-ce040d38248c" />
 ## 📦 Required Libraries
 TensorFlow
