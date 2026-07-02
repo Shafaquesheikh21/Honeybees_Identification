@@ -35,6 +35,7 @@ The model classifies honeybee images into the following five species:
 | Apis mellifera | Western Honey Bee |
 | Trigona | Stingless Bee |
 <img width="641" height="558" alt="image" src="https://github.com/user-attachments/assets/42ebeda9-4e37-4764-ae4d-aab5e47b2b6b" />
+
 ## 🛠️ Technologies Used
 - Python
 - TensorFlow / Keras
@@ -44,6 +45,7 @@ The model classifies honeybee images into the following five species:
 - HTML
 - CSS
 - JavaScript
+
 ## 📊 Dataset
 The dataset consists of labeled images belonging to five different honeybee species.
 Dataset Classes
@@ -52,10 +54,11 @@ Apis dorsata
 Apis florea
 Apis mellifera
 Trigona
-**The dataset is divided into:**
+The dataset is divided into:
 Training Set
 Validation Set
 Testing Set
+
 ## 🔄 Image Preprocessing
 Before training the model, several preprocessing techniques were applied to improve model performance.
 Image resizing
@@ -66,6 +69,7 @@ Rotation
 Horizontal flipping
 Gaussian Blur (used for SVM-based experiments)
 These preprocessing steps improve the robustness of the model by reducing overfitting and increasing dataset diversity.
+
 ## 🧠 Model Architecture
 This project uses Transfer Learning with the VGG16 architecture.
 The model pipeline includes:
@@ -76,6 +80,7 @@ Dropout (0.2)
 Fully Connected Layer
 Softmax Classifier
 <img width="492" height="246" alt="image" src="https://github.com/user-attachments/assets/8cc7e788-7c4e-423b-bab4-784e51a5af0b" />
+
 ## ⚙️ Workflow
 
 Input Honeybee Image
